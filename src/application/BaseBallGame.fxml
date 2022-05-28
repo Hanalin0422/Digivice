@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="300.0" minWidth="300.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <TextField fx:id="answer" alignment="TOP_CENTER" layoutX="50.0" layoutY="45.0" onAction="#baseballGame" prefHeight="63.0" prefWidth="200.0">
+         <font>
+            <Font size="30.0" />
+         </font></TextField>
+      <Label layoutX="65.0" layoutY="22.0" text="세자리 랜덤 숫자를 맞춰주세요!" />
+      <Label layoutX="60.0" layoutY="124.0" text="※주의 :  0 ~ 9 숫자만 입력됩니다." textAlignment="CENTER" />
+      <Label fx:id="result" alignment="CENTER" contentDisplay="CENTER" layoutX="35.0" layoutY="170.0" prefHeight="40.0" prefWidth="225.0" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" wrapText="true">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="exit" alignment="CENTER" contentDisplay="CENTER" layoutX="35.0" layoutY="210.0" prefHeight="40.0" prefWidth="225.0" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" wrapText="true">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
