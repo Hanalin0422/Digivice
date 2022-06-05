@@ -17,5 +17,5 @@
 - 사용한 소프트웨어 : JavaFX, SceneBuilder
 
 
-## 프로젝트에 대한 자세한 설명 문서 
+#### 프로젝트에 대한 자세한 설명 문서 
 https://github.com/Hanalin0422/Javafx_Term_Project/files/8839835/Term.Project.pdf
